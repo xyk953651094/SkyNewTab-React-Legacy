@@ -375,6 +375,7 @@ export function fixPreferenceData(preferenceData: PreferenceDataInterface) {
     setDefaultIfUndefinedOrNull(preferenceData, "customTopic", defaultPreferenceData.customTopic);
     setDefaultIfUndefinedOrNull(preferenceData, "changeImageTime", defaultPreferenceData.changeImageTime);
     setDefaultIfUndefinedOrNull(preferenceData, "nightMode", defaultPreferenceData.nightMode);
+    setDefaultIfUndefinedOrNull(preferenceData, "blurMode", defaultPreferenceData.blurMode);
     setDefaultIfUndefinedOrNull(preferenceData, "noImageMode", defaultPreferenceData.noImageMode);
     setDefaultIfUndefinedOrNull(preferenceData, "searchEngine", defaultPreferenceData.searchEngine);
     setDefaultIfUndefinedOrNull(preferenceData, "buttonShape", defaultPreferenceData.buttonShape);

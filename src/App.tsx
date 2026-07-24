@@ -115,9 +115,9 @@ class App extends React.Component {
                 notification.open({
                     icon: null,
                     message: "已更新至版本 V" + currentVersion,
-                    description: "详细内容请前往菜单栏更新日志查看",
+                    description: "此插件后续不再更新，请前往插件商店搜索 云开壁纸新标签页",
                     placement: "bottomLeft",
-                    duration: 5,
+                    duration: 10,
                     closeIcon: false
                 });
                 setExtensionStorage("SkyNewTabReactVersion", currentVersion);
