@@ -1,14 +1,14 @@
 {
     "extensionName": {
-        "message": "云开新标签页",
+        "message": "云开新标签页（Legacy）",
         "description": "extension_name"
     },
     "extensionDescription": {
-        "message": "在新标签页随机展示不同的精美图片，并提供日历、天气、倒数日、待办事项、专注模式、白噪音、快速链接等实用功能。功能太多？也支持极简模式隐藏所有功能",
+        "message": "此插件后续不再更新，请前往插件商店搜索 云开壁纸新标签页",
         "description": "extension_description"
     },
     "extensionDefaultTitle": {
-        "message": "云开新标签页",
+        "message": "云开新标签页（Legacy）",
         "description": "extension_default_title"
     }
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import {Button, Drawer, Space, Tooltip} from "antd";
+import {Alert, Button, Drawer, Space, Tooltip} from "antd";
 import {MenuOutlined} from "@ant-design/icons";
 import {changeThemeColor} from "../typescripts/publicFunctions";
 import {PreferenceDataInterface, ThemeColorInterface} from "../typescripts/publicInterface";
@@ -144,6 +144,7 @@ class MenuComponent extends React.Component {
                             backgroundColor={this.state.backgroundColor}
                             fontColor={this.state.fontColor}
                             preferenceData={this.props.preferenceData}/>
+                        <Alert message="此插件后续不再更新，请前往插件商店搜索 云开壁纸新标签页" type="info" />
                         <MenuToTopComponent
                             hoverColor={this.state.hoverColor}
                             fontColor={this.state.fontColor}
