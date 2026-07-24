@@ -1,4 +1,4 @@
-# 云开新标签页 based on React
+# 云开新标签页 based on React（Legacy）
 ## 注意
 * 本项目将不再得到维护，请前往云开壁纸新标签页
 
